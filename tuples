@@ -1,0 +1,5 @@
+tuple1=('jai',10,80,'Delhi')
+tuple2=('monday','tuesday',10.75,'a') print(tuple1)
+print(tuple1[3]) tuple3=tuple1+tuple2
+print(tuple3)
+del tuple2
