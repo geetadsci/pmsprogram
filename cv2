@@ -1,0 +1,2 @@
+import cv2
+img = cv2.imread("yourimage.jpg") print(img.shape)
