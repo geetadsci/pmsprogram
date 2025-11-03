@@ -1,3 +1,4 @@
 import matplotlib.pyplot as plt x = [2, 9, 8, 5, 6]
 y = [5, 10, 3, 7, 18]
 plt.scatter(x, y, color='red') plt.title("Scatter Chart") plt.xlabel("X-axis") plt.ylabel("Y-axis")
+plt.show()
