@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt x = [2, 9]
+y = [5, 10]
+plt.plot(
+x, y,	# the data: x- and y-values (same length)
+marker='s',		# draw a marker at each (x,y); 
+'s' = square markersize=10,			# marker size in POINTS
+markeredgecolor='red',	# the marker’s outline color
+
+markerfacecolor='yellow' # the marker’s fill color
+)
+plt.title("Line Chart") 
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis") plt.show()
